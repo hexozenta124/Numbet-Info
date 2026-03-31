@@ -1,15 +1,8 @@
-Verceal.json {
-  "version": 2,
-  "builds": [
-    {
-      "src": "api/lookup.py",
-      "use": "@vercel/python"
-    }
-  ],
+{
   "routes": [
     {
       "src": "/lookup",
-      "dest": "api/lookup.py"
+      "dest": "/api/lookup"
     }
   ]
 }
